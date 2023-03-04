@@ -11,15 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spes/spesn device
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
-# Inherit some common BananaDroid stuff
-$(call inherit-product, vendor/banana/config/common.mk)
-BANANA_MAINTAINER := Bratasij
+
+# Xtended Stuffs
+XTENDED_BUILD_MAINTAINER := Bratasij
+XTENDED_BUILD_TYPE := UNOFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_ENABLE_BLUR := true
-
-#Gapps
-WITH_GAPPS := true
-
 
 # Product Specifics
 PRODUCT_NAME := banana_spes
