@@ -18,8 +18,11 @@ XTENDED_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Inherit some common BananaDroid stuff
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+
 # Product Specifics
-PRODUCT_NAME := banana_spes
+PRODUCT_NAME := xtended_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11

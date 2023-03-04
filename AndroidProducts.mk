@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_spes.mk
+    $(LOCAL_DIR)/xtended_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_spes-user \
-    banana_spes-userdebug \
-    banana_spes-eng
+    xtended_spes-user \
+    xtended_spes-userdebug \
+    xtended_spes-eng
